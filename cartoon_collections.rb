@@ -4,7 +4,7 @@ def roll_call_dwarves(array)
     puts "#{i + 1}. #{array[i]}"
     i += 1 
   end 
-end
+
 
 roll_call_dwarves(dwarves)
 
@@ -28,7 +28,7 @@ def long_planeteer_calls(array)
     return false
   i = i + 1
   end 
-end
+
 
 long_planeteer_calls(call_screams)
 
@@ -37,7 +37,7 @@ def find_the_cheese(array)
     array.find do |type|
     cheese_types.include?(type)
   end 
-end
+
 
 find_the_cheese(snacks)
 
@@ -46,7 +46,7 @@ def find_the_cheese2(array, array2)
     array.find do |type|
     cheese_types.include?(type)
   end 
-end
+
 
 find_the_cheese2(snacks, cheese_types)
 
