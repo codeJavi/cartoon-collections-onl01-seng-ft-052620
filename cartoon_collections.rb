@@ -32,12 +32,5 @@ end
 
 long_planeteer_calls(call_screams)
 
-def find_the_cheese2(array, array2)
-  cheese_types = array2
-    array.find do |type|
-    cheese_types.include?(type)
-  end 
-end
 
-find_the_cheese2(snacks, cheese_types)
 
